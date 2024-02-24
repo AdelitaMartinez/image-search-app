@@ -48,13 +48,21 @@ form{
   margin-left: 10px;
 }
 
-#search-results{
-  display: flex;
+.search-results{
+  display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* #search-results{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
 
 .search-result{
   margin-bottom: 60px;
@@ -98,4 +106,19 @@ opacity: 0.8;
   border-radius: 5px;
   cursor: pointer;
   display: none;
+}
+
+@media  screen and (max-width: 768px) {
+  .search-results {
+    padding:20px;
+  }
+  .search-result{
+    width: 45%;
+  }
+}
+
+@media  screen and (max-width: 480px) {
+  .search-result{
+    width: 100%;
+  }
 }
