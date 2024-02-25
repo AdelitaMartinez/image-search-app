@@ -11,9 +11,9 @@ const showMore = document.getElementById("show-more-button")
 
 
 // created inputData to store input data(keyword) that user adds in "search for image" input
-// By default, page number is 1
+// By default, page number is 2
 let inputData = ""
-let page = 1;
+let page = 2;
 
 
 // Created async function named seaarchImages, need to use async because we are using response/fetch below. 
@@ -46,7 +46,7 @@ async function searchImages() {
     imageLink.target = "_blank"
     imageLink.textContent = result.alt_description
 
-    imageWrapper.appendChild(image)
+    imageLink.appendChild(image)
     imageWrapper.appendChild(imageLink)
     searchResults.appendChild(imageWrapper)
   })
@@ -58,7 +58,7 @@ async function searchImages() {
 }
 
 formEl.addEventListener("submit", (event) =>{
-  event.preventDefualt()
+  event.preventDefault()
   page = 1
   searchImages()
 })
