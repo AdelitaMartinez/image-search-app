@@ -19,12 +19,14 @@ h1{
 }
 
 p {
-  margin: 15px 60px 40px 60px;
+  margin: 15px auto 40px auto;
   border-style: outset;
   border-color:rgb(0 ,0 ,0 , 0.5px);
-  padding: 5px 0px;
+  padding: 5px 10px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
   color: dimgray;
+  max-width: 600px;
+  width: 90%;
 }
 
 form{
