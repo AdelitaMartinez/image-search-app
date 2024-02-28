@@ -26,13 +26,10 @@ The `.map` function is used in JavaScript to iterate over an array and perform a
 
 This project utilizes the [Unsplash API](https://unsplash.com/developers) to fetch high-quality images based on user queries. The API provides a vast collection of freely-usable images, allowing users to discover and explore diverse visual content.
 
-## Contributing
-
-Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request.
 
 
 ## Acknowledgements
 
 - Images provided by [Unsplash](https://unsplash.com/).
-- Built with ❤️ by Adelita Martinez 
+- Built with ❤️ by myself - Adelita Martinez 
 - Connect with me on [LinkedIn](www.linkedin.com/in/adelitamartinez)
